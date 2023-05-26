@@ -1,0 +1,1 @@
+Name is required Email is required Phone is required Company is required Message is required 
