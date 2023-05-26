@@ -164,7 +164,7 @@ For the chilled out folks, I have created a couple of videos here for both the l
 
 #### Hosted App
 
-(TODO: Add the video...)
+![App Screen](./docs/AppScreen.png)
 
 ## Contributors
 
