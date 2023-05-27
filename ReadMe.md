@@ -192,3 +192,11 @@ All the YouTube Videos that are related to this project are listed in chronologi
 4. Steps to Start with Open Source through GSSoC ’23 (WIP)
 5. How to get the best out of GSSoC ’23 (WIP)
 6. Contribution Instructions for First Timers (WIP)
+
+
+## Command to BUILD and RUN dockerized website
+
+
+### `docker build -t <DOCKER_IMAGE> .`
+
+### `docker run -d -p 80:80 <DOCKER_IMAGE>`
