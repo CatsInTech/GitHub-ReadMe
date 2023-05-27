@@ -150,9 +150,11 @@ The whole pointing system in GSSoC ’23 is automated, so there’s no manual en
 
 If you want to try out the application, check out the [Production App](https://app.GitHubReadMe.co) here. 😁
 
+![App Screen](./docs/AppScreen.png)
+
 Also we have a marketing page, check out the [Landing Page](https://GitHubReadMe.co) as well! 🤗
 
-(TODO: Add both the images...)
+![Home Screen](./docs/HomeScreen.png)
 
 ### Video Demo
 
@@ -164,7 +166,7 @@ For the chilled out folks, I have created a couple of videos here for both the l
 
 #### Hosted App
 
-![App Screen](./docs/AppScreen.png)
+(TODO: Add the video...)
 
 ## Contributors
 
