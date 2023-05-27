@@ -4,11 +4,30 @@ When contributing to this repository, please first discuss the change you wish t
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-## Raising Issues
+## Issue Description
 
-1. Make sure you understand the project and codebase.
-2. Go through the existing issues before raising a new one.
-3. When you’re suggesting a new change or would like to take up an existing issue, kindly mention your solution idea.
+
+# Raising Issues
+
+### Type of Issue
+
+Please select the type of issue from the following choices:
+
+- [ ] New Feature (Landing Page)
+- [ ] New Feature (App)
+- [ ] Bug (Landing Page)
+- [ ] Bug (App)
+- [ ] New Component (App)
+
+### Additional Details💬
+
+Please provide any additional details or context about the issue. You can also attach an image of the issue you would like to resolve, hence it will be more clear and hassle free job for us to assign the issue to you ASAP !
+
+### TIP✨
+While selecting the type of issue use the command " - [x] Issue " inorder to make it checked, below a pictorial representation have been provided how an ideal issue would look like 👇
+![Screenshot 2023-05-27 at 16-28-38 New Issue · DSR1729_YODA](https://github.com/DSR1729/GitHub-ReadMe/assets/115932772/5c1329b9-6273-4061-81cc-2ecbba61ff0f)
+
+![Screenshot 2023-05-27 at 16-29-16 New Issue · DSR1729_YODA](https://github.com/DSR1729/GitHub-ReadMe/assets/115932772/6c490bc3-786c-49f9-8c8f-38a4da826c94)
 
 ## Pull Requests
 
