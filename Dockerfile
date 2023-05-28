@@ -1,9 +1,9 @@
-FROM node:16
+FROM node:18
 LABEL maintainer="Rohan Rustagi"
 WORKDIR /app
-COPY package-lock.json ./
 COPY package.json ./
-RUN npm install -g react-scripts
+COPY package*.json ./
+RUN npm install --no-optional
 COPY . .
 EXPOSE 3000
 CMD [ "npm", "start" ]
