@@ -120,9 +120,9 @@ The whole pointing system in GSSoC ’23 is automated, so there’s no manual en
 
 | Label Name | Difficulty | Points |
 | ---------- | ---------- | ------ |
-| `easy`     | Easy       | 5      |
-| `medium`   | Medium     | 10     |
-| `hard`     | Hard       | 20     |
+| `easy`     | Easy       | 10      |
+| `medium`   | Medium     | 25     |
+| `hard`     | Hard       | 45     |
 
 #### Mentors
 
