@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+env:
+  IMAGE_NAME = ${{ github.repository_name }}
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
@@ -22,8 +25,14 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.G_TOKEN }}
 
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag $IMAGE_NAME
+
+      - name: Log in to Registry
+        run: echo "${{ secrets.G_TOKEN }}" | docker login https://ghcr.io -u {{ github.actor }} --password-stdin
+          
       - name: Build and Push Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository_owner }}/${{ github.repository_name }}:${{ github.sha }} .
-          docker push ghcr.io/${{ github.repository_owner }}/${{ github.repository_name }}:${{ github.sha }}
-          
+          IMAGE_ID=ghcr.io/${{ github.repository_owner }}/$IMAGE_NAME:${{ github.sha }}
+          docker push $IMAGE_ID
+
