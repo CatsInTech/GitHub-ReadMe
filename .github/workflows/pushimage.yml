@@ -21,6 +21,6 @@ jobs:
 
       - name: Build and Push Docker image
         run: |
-          IMAGE_TAG=ghcr.io/rohanrusta21/github-readme:${{ github.sha }}
+          IMAGE_TAG=ghcr.io/rohanrusta21/github-readme:latest
           docker build --file Dockerfile --tag $IMAGE_TAG .
           docker push $IMAGE_TAG
