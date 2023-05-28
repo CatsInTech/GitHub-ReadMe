@@ -24,7 +24,7 @@ jobs:
           password: ${{ secrets.G_TOKEN }}
 
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag $IMAGE_NAME
+        run: docker build --file Dockerfile --tag $IMAGE_NAME .
 
       - name: Log in to Registry
         run: echo "${{ secrets.G_TOKEN }}" | docker login https://ghcr.io -u {{ github.actor }} --password-stdin
