@@ -1,0 +1,54 @@
+name: "🚀 New Feature - LandingPage"
+description: Have a new idea/feature for Landing Page to help improve the project? Submit it here!
+title: "🚀 [New Feature_LP] - Title"
+labels: ["landingpage", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 **New Feature Request**
+
+        Thanks for taking the time to fill out this Feature Request Report! :memo:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the enhancement. ✍🏻
+      description: Please provide a brief description of the enhancement you propose. Try to keep it short, simple and to the point.
+      placeholder: Short and explicit description of the enhancement...
+    validations:
+      required: true
+  - type: textarea
+    id: solutionsteps
+    attributes:
+      label: Describe briefly how you would implement this enhancement.
+      description: Please provide a solution steps for implementing the enhancement.
+      placeholder: Short and explicit description of the solution steps...
+      value: Some steps to implement this enhancement-
+        1. Step 1
+        2. Step 2
+        3. Step 3
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots Example (if applicable)
+      description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this enhancement?
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Contributor terms
+      description: By submitting this issue, you agree to follow our Contributing Instructions. Please read our [Contributing Instructions](https://github.com/CatsInTech/GitHub-ReadMe/blob/main/Contributing.md).
+      options:
+        - label: I agree to follow the Contributing Instructions
+          required: true
