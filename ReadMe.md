@@ -206,6 +206,8 @@ For the chilled out folks, I have created a couple of videos here for both the l
 <a href="https://github.com/CatsInTech/GitHub-ReadMe/graphs/contributors">
   <img align="center" src="https://contrib.rocks/image?max=100&repo=CatsInTech/GitHub-ReadMe" />
 </a>
+<br />
+<br />
 
 Thank you to all the amazing contributors who have made this project possible! 💪🏻
 
