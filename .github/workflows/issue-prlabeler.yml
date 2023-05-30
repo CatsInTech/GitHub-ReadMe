@@ -1,0 +1,42 @@
+name: Add label to Issues/PRs
+
+on:
+  issues:
+    types:
+      - opened
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  add-label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Add label 'GSSoC2023'
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { issue, pull_request } = context.payload;
+            const issueNumber = issue ? issue.number : pull_request.number;
+            const repo = context.repo.owner + '/' + context.repo.repo;
+            const label = 'GSSoC2023';
+
+            const addLabelParams = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              labels: [label]
+            };
+
+            await github.issues.addLabels(addLabelParams);
+            
+            console.log(`Added tags GSSoC2023 to issue/PR #${issueNumber}.`);
