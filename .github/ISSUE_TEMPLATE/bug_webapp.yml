@@ -1,7 +1,7 @@
-name: "🐞 Bug - LandingPage"
-description: Report an issue for Landing Page to help improve the project.
-title: "🐞 [BUG_LP] - Title"
-labels: ["bug", "landingpage"]
+name: "🐞 Bug - WebApp"
+description: Report an issue for Web App to help improve the project.
+title: "🐞 [BUG_WebApp] - Title"
+labels: ["bug", "webapp"]
 body:
   - type: markdown
     attributes:
