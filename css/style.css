@@ -1519,6 +1519,11 @@ select.form-control.has-value {
   .screenshot-frame {
     display: none;
   }
+
+  .screen-carousel .owl-item.active.center img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 .screen-carousel .owl-item img {
   -webkit-transform: scale(0.85);
@@ -1530,8 +1535,8 @@ select.form-control.has-value {
 }
 
 .screen-carousel .owl-item.active.center img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: scaleY(1) scaleX(0.9);
+  transform: scaleY(1) scaleX(0.9);
 }
 
 .dot-indicator.owl-theme button.owl-dot span {
