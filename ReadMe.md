@@ -60,7 +60,7 @@ First step is to “Fork” the project under your name and keep the `main` bran
 Here are all the commands...
 
 ```bash
-$ git clone <path> <directory>
+$ git clone https://github.com/<Your-GitHub-Username>/GitHub-ReadMe.git
 $ npm ci
 $ npm start
 ```
