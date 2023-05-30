@@ -60,7 +60,7 @@ Here's a list of all the features of our GitHub Profile ReadMe customisation too
 
 With our GitHub profile ReadMe customisation tool, you can take your GitHub profile to the next level and impress potential employers and collaborators. Try it out today and see the difference it can make! 🤗
 
-([⬆️ Back to Top](#table-of-contents))
+[⬆️ Back to Top](#table-of-contents)
 
 ## Development
 
@@ -100,7 +100,7 @@ If you’re facing any issues, feel free to message me on WhatsApp / LinkedIn / 
 
 (TODO: Video of a user doing the installation!)
 
-([⬆️ Back to Top](#table-of-contents))
+[⬆️ Back to Top](#table-of-contents)
 
 ## Contribution Guidelines
 
@@ -171,7 +171,7 @@ The whole pointing system in GSSoC ’23 is automated, so there’s no manual en
 | ![Praveen Kumar Purushothaman](https://i.imgur.com/wbUfjzdm.png) |
 | <table><tbody><tr><th>Position</th><td>Full Stack JavaScript Specialist</td></tr><tr><th>LinkedIn</th><td>[Praveen Kumar Purushothaman](https://www.linkedin.com/in/praveentech/)</td></tr><tr><th>Twitter</th><td>[Praveen Kumar Purushothaman](https://twitter.com/praveenscience)</td></tr><tr><th>GitHub</th><td>[Praveen Kumar Purushothaman](https://github.com/praveenscience)</td></tr><tr><th>YouTube</th><td>[Praveen Kumar Purushothaman](https://www.youtube.com/@praveenscience?sub_confirmation=1)</td></tr></tbody></table> |
 
-([⬆️ Back to Top](#table-of-contents))
+[⬆️ Back to Top](#table-of-contents)
 
 ## Demos
 
@@ -199,7 +199,7 @@ For the chilled out folks, I have created a couple of videos here for both the l
 
 (TODO: Add the video...)
 
-([⬆️ Back to Top](#table-of-contents))
+[⬆️ Back to Top](#table-of-contents)
 
 ## Contributors
 
@@ -211,7 +211,7 @@ Thank you to all the amazing contributors who have made this project possible! �
 
 Show some ❤️ by starring this awesome repository! 🌟
 
-([⬆️ Back to Top](#table-of-contents))
+[⬆️ Back to Top](#table-of-contents)
 
 ## Resources
 
@@ -228,4 +228,4 @@ All the YouTube Videos that are related to this project are listed in chronologi
 5. How to get the best out of GSSoC ’23 (WIP)
 6. Contribution Instructions for First Timers (WIP)
 
-([⬆️ Back to Top](#table-of-contents))
+[⬆️ Back to Top](#table-of-contents)
