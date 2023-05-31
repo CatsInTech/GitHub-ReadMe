@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Add label 'GSSoC2023'
+      - name: Add label 'GSSoC23'
         uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,7 +28,7 @@ jobs:
             const { issue, pull_request } = context.payload;
             const issueNumber = issue ? issue.number : pull_request.number;
             const repo = context.repo.owner + '/' + context.repo.repo;
-            const label = 'GSSoC2023';
+            const label = 'GSSoC23';
 
             const addLabelParams = {
               owner: context.repo.owner,

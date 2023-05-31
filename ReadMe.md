@@ -2,6 +2,31 @@
 
 ![GHReadMeReadMe-Slim](./docs/GHReadMeReadMe-Banner.png)
 
+## Table of Contents
+
+- [Introduction](#introduction)
+  - [Motivation](#motivation)
+  - [Product Features](#product-features)
+- [Development](#development)
+  - [System Requirements](#system-requirements)
+  - [Installation & Running Instructions](#installation--running-instructions)
+  - [ScreenCast](#screencast)
+- [Contribution Guidelines](#contribution-guidelines)
+  - [Quick Steps to Contribute](#quick-steps-to-contribute)
+  - [Multiple Branches](#multiple-branches)
+  - [GirlScript Summer of Code](#girlscript-summer-of-code)
+    - [Labels & Points Guidance](#labels--points-guidance)
+    - [Mentors](#mentors)
+    - [Project Admin](#project-admin)
+- [Demos](#demos)
+  - [Live Demo](#live-demo)
+  - [Video Demo](#video-demo)
+    - [Landing Page](#landing-page)
+    - [Hosted App](#hosted-app)
+- [Contributors](#contributors)
+- [Resources](#resources)
+  - [YouTube Videos](#youtube-videos)
+
 ## Introduction
 
 Introducing our latest product, the hassle-free and open-source GitHub Profile ReadMe customisation tool! With no login or registration required, you can quickly mix and match different components to create an impressive and informative GitHub Profile ReadMe page. Our drag and drop functionality makes the customisation a breeze, and with the tool being Open Source, you can expect new ideas and features to be added regularly. Try it out today and take your GitHub profile to the next level! 💪🏻
@@ -35,6 +60,8 @@ Here's a list of all the features of our GitHub Profile ReadMe customisation too
 
 With our GitHub profile ReadMe customisation tool, you can take your GitHub profile to the next level and impress potential employers and collaborators. Try it out today and see the difference it can make! 🤗
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Development
 
 ### System Requirements
@@ -60,7 +87,7 @@ First step is to “Fork” the project under your name and keep the `main` bran
 Here are all the commands...
 
 ```bash
-$ git clone <path> <directory>
+$ git clone https://github.com/<Your-GitHub-Username>/GitHub-ReadMe.git
 $ npm ci
 $ npm start
 ```
@@ -72,6 +99,8 @@ If you’re facing any issues, feel free to message me on WhatsApp / LinkedIn / 
 ### ScreenCast
 
 (TODO: Video of a user doing the installation!)
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## Contribution Guidelines
 
@@ -142,6 +171,8 @@ The whole pointing system in GSSoC ’23 is automated, so there’s no manual en
 | ![Praveen Kumar Purushothaman](https://i.imgur.com/wbUfjzdm.png) |
 | <table><tbody><tr><th>Position</th><td>Full Stack JavaScript Specialist</td></tr><tr><th>LinkedIn</th><td>[Praveen Kumar Purushothaman](https://www.linkedin.com/in/praveentech/)</td></tr><tr><th>Twitter</th><td>[Praveen Kumar Purushothaman](https://twitter.com/praveenscience)</td></tr><tr><th>GitHub</th><td>[Praveen Kumar Purushothaman](https://github.com/praveenscience)</td></tr><tr><th>YouTube</th><td>[Praveen Kumar Purushothaman](https://www.youtube.com/@praveenscience?sub_confirmation=1)</td></tr></tbody></table> |
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Demos
 
 (TODO: Image of the GitHub ReadMe Generator, keep this dynamically updated every time the app is updated)
@@ -168,15 +199,21 @@ For the chilled out folks, I have created a couple of videos here for both the l
 
 (TODO: Add the video...)
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Contributors
 
 <a href="https://github.com/CatsInTech/GitHub-ReadMe/graphs/contributors">
   <img align="center" src="https://contrib.rocks/image?max=100&repo=CatsInTech/GitHub-ReadMe" />
 </a>
+<br />
+<br />
 
 Thank you to all the amazing contributors who have made this project possible! 💪🏻
 
 Show some ❤️ by starring this awesome repository! 🌟
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## Resources
 
@@ -192,3 +229,5 @@ All the YouTube Videos that are related to this project are listed in chronologi
 4. Steps to Start with Open Source through GSSoC ’23 (WIP)
 5. How to get the best out of GSSoC ’23 (WIP)
 6. Contribution Instructions for First Timers (WIP)
+
+[⬆️ Back to Top](#table-of-contents)
