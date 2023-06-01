@@ -1,5 +1,5 @@
-import Card from "./Bootstrap/Card";
-import Container from "./Bootstrap/Container";
+import Card from './Bootstrap/Card';
+import Container from './Bootstrap/Container';
 
 const Home = () => {
   return (
@@ -22,13 +22,13 @@ const Home = () => {
               </p>
               <ul>
                 {[
-                  "They are supposed to be draggable and extendable.",
-                  "This area should not be touched once it is built.",
-                  "An example of how we can map through is here.",
-                  "Mostly this array will be an array of objects.",
-                  "Each object should be having a configuration of the component.",
-                  "New developers should be able to enhance the product by creating new components.",
-                  "New components should be automatically be listed here with minimal or no code change."
+                  'They are supposed to be draggable and extendable.',
+                  'This area should not be touched once it is built.',
+                  'An example of how we can map through is here.',
+                  'Mostly this array will be an array of objects.',
+                  'Each object should be having a configuration of the component.',
+                  'New developers should be able to enhance the product by creating new components.',
+                  'New components should be automatically be listed here with minimal or no code change.'
                 ].map((li, key) => (
                   <li key={key}>{li}</li>
                 ))}
@@ -59,7 +59,7 @@ const Home = () => {
                   screenshot on the ReadMe.
                 </li>
                 <li>
-                  Most of the designs and layout are in this inital{" "}
+                  Most of the designs and layout are in this inital{' '}
                   <a
                     href="https://github.com/praveenscience/Praveen-React-App"
                     target="_blank"
