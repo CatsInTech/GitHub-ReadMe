@@ -259,7 +259,8 @@ b {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.375rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .badge-pill {
   padding-right: 0.875em;
@@ -300,7 +301,14 @@ b {
   color: #7202bb;
 }
 .gradient-bg {
-  background-image: linear-gradient(to left, #3264f5, #4a54e8, #5b42db, #682ccb, #7202bb) !important;
+  background-image: linear-gradient(
+    to left,
+    #3264f5,
+    #4a54e8,
+    #5b42db,
+    #682ccb,
+    #7202bb
+  ) !important;
 }
 
 .white-bg {
@@ -541,7 +549,14 @@ select.form-control.has-value {
 }
 
 .bg-transparent.affix {
-  background-image: linear-gradient(to left, #3264f5, #4a54e8, #5b42db, #682ccb, #7202bb) !important;
+  background-image: linear-gradient(
+    to left,
+    #3264f5,
+    #4a54e8,
+    #5b42db,
+    #682ccb,
+    #7202bb
+  ) !important;
 }
 
 .navbar-toggler {
@@ -721,7 +736,14 @@ select.form-control.has-value {
 
 @media (min-width: 320px) and (max-width: 992px) {
   .navbar {
-    background-image: linear-gradient(to left, #3264f5, #305be4, #3b4fe2, #4740de, #7202bb) !important;
+    background-image: linear-gradient(
+      to left,
+      #3264f5,
+      #305be4,
+      #3b4fe2,
+      #4740de,
+      #7202bb
+    ) !important;
     padding: 0.85rem 1rem !important;
   }
   .menu li {
@@ -761,10 +783,14 @@ select.form-control.has-value {
   .navbar {
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     background: transparent;
-    -o-transition: border-bottom 0.3s ease-in-out, background 0.3s ease-in-out, padding 0.3s ease-in-out;
-    -webkit-transition: border-bottom 0.3s ease-in-out, background 0.3s ease-in-out, padding 0.3s ease-in-out;
-    -moz-transition: border-bottom 0.3s ease-in-out, background 0.3s ease-in-out, padding 0.3s ease-in-out;
-    transition: border-bottom 0.3s ease-in-out, background 0.3s ease-in-out, padding 0.3s ease-in-out;
+    -o-transition: border-bottom 0.3s ease-in-out, background 0.3s ease-in-out,
+      padding 0.3s ease-in-out;
+    -webkit-transition: border-bottom 0.3s ease-in-out,
+      background 0.3s ease-in-out, padding 0.3s ease-in-out;
+    -moz-transition: border-bottom 0.3s ease-in-out, background 0.3s ease-in-out,
+      padding 0.3s ease-in-out;
+    transition: border-bottom 0.3s ease-in-out, background 0.3s ease-in-out,
+      padding 0.3s ease-in-out;
     -webkit-backface-visibility: hidden;
   }
 }
@@ -945,7 +971,14 @@ select.form-control.has-value {
 .gradient-overlay:before {
   position: absolute;
   content: "";
-  background-image: linear-gradient(to left, rgba(50, 100, 245, 0.9), rgba(74, 84, 232, 0.88), rgba(91, 66, 219, 0.85), rgba(104, 44, 203, 0.88), rgba(114, 2, 187, 0.9));
+  background-image: linear-gradient(
+    to left,
+    rgba(50, 100, 245, 0.9),
+    rgba(74, 84, 232, 0.88),
+    rgba(91, 66, 219, 0.85),
+    rgba(104, 44, 203, 0.88),
+    rgba(114, 2, 187, 0.9)
+  );
   width: 100%;
   height: 100%;
   top: 0;
@@ -1293,23 +1326,31 @@ select.form-control.has-value {
 }
 @-webkit-keyframes ripple-white {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
   }
   100% {
-    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
   }
 }
 
 @keyframes ripple-white {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
   }
   100% {
-    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
   }
 }
 
@@ -1379,24 +1420,26 @@ select.form-control.has-value {
 /*==================================
        09. TESTIMONIAL CSS
 =======================================*/
-.section-heading h2{
-color: #305be4;
-font-size: 45px;
-margin-top: -30px;
+.section-heading h2 {
+  color: #305be4;
+  font-size: 45px;
+  margin-top: -30px;
 }
-.bsh{
+.bsh {
   display: block;
   position: relative;
-   }
-.testimonial-single{
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.testimonial-single {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
   background-image: linear-gradient(rgb(147, 145, 145));
   color: #222;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
   transition: all 1s ease;
 }
-.testimonial-single:hover{
+.testimonial-single:hover {
   color: #0c1030;
   /* font-size: 15px; */
   /* font-weight: 600; */
@@ -1407,27 +1450,32 @@ margin-top: -30px;
 .testimonial-single:after {
   content: "";
   width: 0;
-  background-image: linear-gradient(130deg,rgb(128, 126, 126),rgb(147, 145, 145),rgb(185, 182, 182),rgb(199, 195, 195),white);
-   height: 0;
+  background-image: linear-gradient(
+    130deg,
+    rgb(128, 126, 126),
+    rgb(147, 145, 145),
+    rgb(185, 182, 182),
+    rgb(199, 195, 195),
+    white
+  );
+  height: 0;
   border-top: 30px solid #edeaea;
   border-right: 30px solid transparent;
   position: absolute;
   bottom: -30px;
-  
 }
-.owl-item{
+.owl-item {
   transition: all 1s ease;
 }
-.owl-item:hover{
+.owl-item:hover {
   transform: scale(0.98);
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
   background-color: white;
- }
+}
 /*owl carousel slider*/
 .owl-carousel .owl-item .client-img img {
   width: 60px;
   display: initial;
-  
 }
 
 /*========================
@@ -1475,7 +1523,13 @@ margin-top: -30px;
 }
 
 .work-process-divider {
-  background-image: linear-gradient(90deg, #73778c, #73778c 40%, transparent 40%, transparent 100%);
+  background-image: linear-gradient(
+    90deg,
+    #73778c,
+    #73778c 40%,
+    transparent 40%,
+    transparent 100%
+  );
 }
 
 .single-work-process .work-process-divider {
@@ -1483,7 +1537,13 @@ margin-top: -30px;
   top: 40px;
   width: calc(100% - 130px);
   height: 1px;
-  background-image: linear-gradient(90deg, #73778c, #73778c 40%, transparent 40%, transparent 100%);
+  background-image: linear-gradient(
+    90deg,
+    #73778c,
+    #73778c 40%,
+    transparent 40%,
+    transparent 100%
+  );
   background-size: 12px 1px;
 }
 .single-work-process .work-process-divider:after {
@@ -1601,7 +1661,13 @@ margin-top: -30px;
   position: absolute;
   width: 100%;
   height: 55px;
-  background: linear-gradient(to right, white, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 90%, white 95%);
+  background: linear-gradient(
+    to right,
+    white,
+    rgba(255, 255, 255, 0) 10%,
+    rgba(255, 255, 255, 0) 90%,
+    white 95%
+  );
   z-index: 100;
   left: 0;
   right: 0;
@@ -1704,7 +1770,11 @@ margin-top: -30px;
   left: 50%;
   margin-left: -40%;
   height: 1px;
-  background: radial-gradient(at center center, rgb(222, 228, 239) 0px, rgba(255, 255, 255, 0) 75%);
+  background: radial-gradient(
+    at center center,
+    rgb(222, 228, 239) 0px,
+    rgba(255, 255, 255, 0) 75%
+  );
 }
 
 .pricing-feature-list li {
@@ -1888,7 +1958,11 @@ button.scroll-top:focus {
   height: 10px;
   width: 90%;
   opacity: 1;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
 }
 
 /*login sign up form*/
@@ -1913,10 +1987,16 @@ button.scroll-top:focus {
   border-bottom-left-radius: 4px;
   height: calc(2.65em + 0.75rem + 2px);
 }
-.login-signup-form .form-group .input-group.input-group-merge > textarea.form-control {
+.login-signup-form
+  .form-group
+  .input-group.input-group-merge
+  > textarea.form-control {
   height: calc(7.8rem + 2px);
 }
-.login-signup-form .form-group .input-group.input-group-merge > .form-control:focus {
+.login-signup-form
+  .form-group
+  .input-group.input-group-merge
+  > .form-control:focus {
   z-index: inherit;
 }
 
@@ -2057,7 +2137,10 @@ small {
   border-bottom-left-radius: 4px;
   height: calc(2.65em + 0.75rem + 2px);
 }
-.login-signup-form .form-group .input-group.input-group-merge > .form-control:focus {
+.login-signup-form
+  .form-group
+  .input-group.input-group-merge
+  > .form-control:focus {
   z-index: inherit;
 }
 
