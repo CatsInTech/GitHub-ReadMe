@@ -2087,6 +2087,13 @@ small {
     padding: 50px 0;
   }
 }
+.list-inline-item{
+  transition:all 0.8s;
+}
+
+.list-inline-item:hover{
+  transform:scale(1.4);
+} 
 .footer-nav-wrap ul li strong {
   font-size: 18px;
   line-height: 19px;
@@ -2114,6 +2121,34 @@ small {
 }
 .social-list li span {
   padding: 10px;
+}
+.social-list li span:hover {
+  color:#fff;
+  transition:all 0.3s ease;
+}
+.social-list .ti-facebook {
+  color: #3b5998;
+}
+.social-list .ti-twitter {
+  color: #00acee;
+}
+.social-list .ti-linkedin {
+  color: #0072b1;
+}
+.social-list .ti-dribbble {
+  color: #ea4c89;
+}
+.social-list .ti-facebook:hover {
+  background: #3b5998;
+}
+.social-list .ti-twitter:hover {
+  background: #00acee;
+}
+.social-list .ti-linkedin:hover {
+  background: #0072b1;
+}
+.social-list .ti-dribbble:hover {
+  background: #ea4c89;
 }
 .footer-nav-list li a span {
   font-size: 12px;
