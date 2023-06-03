@@ -1441,11 +1441,8 @@ select.form-control.has-value {
 }
 .testimonial-single:hover {
   color: #0c1030;
-  /* font-size: 15px; */
-  /* font-weight: 600; */
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   transform: scale(0.9);
-  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 .testimonial-single:after {
   content: "";
