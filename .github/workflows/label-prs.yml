@@ -3,7 +3,6 @@ name: Add Labels to PRs
 on:
   pull_request_target:
     types: [opened]
-    branches: [main, website, gh-pages]
 
 jobs:
   add-labels:
