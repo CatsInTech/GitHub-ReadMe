@@ -2155,6 +2155,37 @@ small {
   vertical-align: middle;
 }
 
+.social-list li span:hover {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social-list .ti-facebook {
+  color: #3b5998;
+}
+.social-list .ti-twitter-alt {
+  color: #00acee;
+}
+.social-list .ti-linkedin {
+  color: #0072b1;
+}
+.social-list .ti-dribbble {
+  color: #ea4c89 ;
+}
+
+.social-list .ti-facebook:hover {
+  background: #3b5998;
+}
+.social-list .ti-twitter-alt:hover {
+  background: #00acee;
+}
+.social-list .ti-linkedin:hover {
+  background: #0072b1;
+}
+.social-list .ti-dribbble:hover {
+  background: #ea4c89;
+}
+
 /*=========================================
             15. BLOG SECTION CSS
 ============================================*/
