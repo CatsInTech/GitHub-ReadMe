@@ -538,6 +538,11 @@ select.form-control.has-value {
 .bg-transparent ul li a:hover,
 .white-bg.affix ul li a:hover {
   opacity: 1;
+  background-color: #7202bb;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+  padding: 5px 10px; 
 }
 
 .bg-transparent.affix {
