@@ -10,22 +10,21 @@
     font-size: 1.5em;
   }
   ::-webkit-scrollbar {
-  width: 10px;
-}
+    width: 10px;
+  }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: black;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: white; 
-}
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: orange; 
-}
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+  }
 
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: orange;
+  }
 }
