@@ -24,10 +24,10 @@ const FormGroup = ({
         defaultValue={defaultValue}
         checked={Checked}
         defaultChecked={defaultChecked}
-        aria-describedby={Id + 'Help'}
+        aria-describedby={Id + "Help"}
       />
       {Desc && (
-        <small id={Id + 'Help'} className="form-text text-muted">
+        <small id={Id + "Help"} className="form-text text-muted">
           {Desc}
         </small>
       )}

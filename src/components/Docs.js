@@ -1,14 +1,14 @@
-import { Component } from 'react';
-import Header from './Bootstrap/Header';
-import Container from './Bootstrap/Container';
-import ContainerRow from './Bootstrap/ContainerRow';
-import Card from './Bootstrap/Card';
-import FormGroup from './Bootstrap/FormGroup';
+import { Component } from "react";
+import Header from "./Bootstrap/Header";
+import Container from "./Bootstrap/Container";
+import ContainerRow from "./Bootstrap/ContainerRow";
+import Card from "./Bootstrap/Card";
+import FormGroup from "./Bootstrap/FormGroup";
 
 class Docs extends Component {
   state = {
-    Name: '',
-    Email: ''
+    Name: "",
+    Email: ""
   };
 
   handleFormElementChange = e => {
@@ -23,7 +23,7 @@ class Docs extends Component {
         <ContainerRow fluid={true}>
           <div className="col-12">
             <h1 className="display-4 AppHeading text-center">
-              Documentation -{' '}
+              Documentation -{" "}
               <a
                 href="https://github.com/praveenscience/Praveen-React-App"
                 target="_blank"

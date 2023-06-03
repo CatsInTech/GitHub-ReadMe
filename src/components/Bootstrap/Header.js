@@ -1,11 +1,11 @@
 const Header = ({ dark, children, className, items, to, Link }) => {
-  dark = dark ? 'dark' : 'light';
+  dark = dark ? "dark" : "light";
   return (
     <nav
       className={
         `Header navbar navbar-${dark} bg-${dark}` +
-        (className ? ' ' + className : '') +
-        (items && items.length ? ' navbar-expand-lg' : '')
+        (className ? " " + className : "") +
+        (items && items.length ? " navbar-expand-lg" : "")
       }
     >
       {to

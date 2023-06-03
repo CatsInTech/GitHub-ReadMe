@@ -10,10 +10,10 @@ const Card = ({
   className
 }) => {
   return (
-    <div className={'card' + (className ? ' ' + className : '')}>
+    <div className={"card" + (className ? " " + className : "")}>
       {Image && (
         <img
-          className={'card-img-' + ImgAlign}
+          className={"card-img-" + ImgAlign}
           src={Image}
           alt={Header && Title}
         />
