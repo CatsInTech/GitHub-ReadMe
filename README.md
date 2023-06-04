@@ -1,25 +1,3 @@
-
-<div style="text-align: center;">
-  <p>
-    <img src="https://img.shields.io/badge/Built%20with-Love-red.svg?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Uses-Brains-blue.svg?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Powered%20by-Responsibility-orange.svg?style=for-the-badge" />
-    <br/>
-    <img src="https://img.shields.io/github/repo-size/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
-    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" /></a>
-    <img src="https://img.shields.io/github/issues-closed-raw/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
-    <img src="https://img.shields.io/github/issues/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
-    <img src="https://img.shields.io/github/issues-closed/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
-    <img src="https://img.shields.io/github/stars/CatsInTech/GitHub-ReadMe.svg?style=social&label=Stars" />
-    <img src="https://img.shields.io/github/forks/CatsInTech/GitHub-ReadMe.svg?style=social" />
-    <img src="https://img.shields.io/github/issues-pr/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
-    <img src="https://img.shields.io/github/last-commit/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
-    <img src="https://img.shields.io/github/contributors/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
-    <img src="https://img.shields.io/github/issues-pr-closed-raw/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
-  </p>
-</div>
-
-
 # GitHub ReadMe Generator
 
 ![GHReadMeReadMe-Slim](./docs/GHReadMeReadMe-Banner.png)
