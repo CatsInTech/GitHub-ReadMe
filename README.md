@@ -123,7 +123,7 @@ Here are some quick and simple instructions, which no one can mess up! 💪🏻
    1. If the issue is already assigned to someone else, please enter your comment but look through and try to see how you can fit.
    2. If it’s not already assigned, tell how you can solve this issue, explain your procedure in your mind and ask to assign.
 6. If you can’t find any issues, identify potential bugs or improvements for the project! 🔎
-7. Once you’ve been assigned the issue, kindly follow the [Contributing Guidelines](./Contributing.md) and make a Pull Request! 🤝🏻
+7. Once you’ve been assigned the issue, kindly follow the [Contributing Guidelines](./CONTRIBUTING.md) and make a Pull Request! 🤝🏻
 8. I’ll go through your PR and if it’s of good quality, congrats, thanks for your contribution. 😁
 9. Occasionally, if there are some issues, I’ll definitely point them out and I won’t close the PRs without a valid info! 🥹
 
