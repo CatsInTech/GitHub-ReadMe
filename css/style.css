@@ -1379,21 +1379,46 @@ select.form-control.has-value {
 /*==================================
        09. TESTIMONIAL CSS
 =======================================*/
-.testimonial-single {
+.section-heading h2 {
+  color: #305be4;
+  font-size: 45px;
+  margin-top: -30px;
+}
+.bsh {
   display: block;
   position: relative;
 }
+.testimonial-single {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
+  background-image: linear-gradient(rgb(147, 145, 145));
+  color: #222;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  transition: all 1s ease;
+}
+.testimonial-single:hover {
+  color: #0c1030;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transform: scale(0.9);
+}
 .testimonial-single:after {
   content: "";
   width: 0;
+  background-image: linear-gradient(130deg, rgb(128, 126, 126), rgb(147, 145, 145), rgb(185, 182, 182), rgb(199, 195, 195), white);
   height: 0;
-  border-top: 30px solid #f7f7f7;
+  border-top: 30px solid #edeaea;
   border-right: 30px solid transparent;
   position: absolute;
   bottom: -30px;
 }
-
+.owl-item {
+  transition: all 1s ease;
+}
+.owl-item:hover {
+  transform: scale(0.98);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  background-color: white;
+}
 /*owl carousel slider*/
 .owl-carousel .owl-item .client-img img {
   width: 60px;
