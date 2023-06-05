@@ -177,7 +177,7 @@ jQuery(function ($) {
     margin: 0,
     center: true,
     dots: true,
-    nav: false,
+    nav: true,
     autoplay: true,
     responsive: {
       0: {

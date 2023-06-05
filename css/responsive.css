@@ -64,6 +64,20 @@
         margin: 7px 0;
     }
 
+    /*Carousel Slider*/
+    .owl-carousel .owl-nav button.owl-next{position: absolute; top: calc(50% - 60px); right: -10px; opacity: 1; font-size: 35px !important; z-index: 1;width: 53px;height: 57px;}
+    .owl-carousel .owl-nav button.owl-prev{position: absolute; top: calc(50% - 60px); left: -10px; opacity: 1; font-size: 35px !important; z-index: 1;width: 53px;height: 57px;}
+    [aria-label="Next"]{
+        position: absolute;
+        top: -4px;
+        right: 20px;
+    }
+
+    [aria-label="Previous"]{
+        position: absolute;
+        top: -4px;
+        right: 23px;
+    }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -92,6 +106,9 @@
         width: 100%;
     }
 
+    /*Carousel slider*/
+    .owl-carousel .owl-nav button.owl-next{position: absolute; top: calc(50% - 60px); right: -30px; opacity: 1; font-size: 35px !important; z-index: 1;width: 70px;height: 74px;}
+    .owl-carousel .owl-nav button.owl-prev{position: absolute; top: calc(50% - 60px); left: -30px; opacity: 1; font-size: 35px !important; z-index: 1;width: 70px;height: 74px;}
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -99,14 +116,37 @@
     .mt--120{
         margin-top: -50px;
     }
+
+    /*Carousel slider*/
+    .owl-carousel .owl-nav button.owl-next{position: absolute; top: calc(50% - 60px); right: -38px;opacity: 1; font-size: 35px !important; z-index: 1;width: 70px;height: 74px;}
+    .owl-carousel .owl-nav button.owl-prev{position: absolute; top: calc(50% - 60px); left: -38px;opacity: 1; font-size: 35px !important; z-index: 1;width: 70px;height: 74px;}
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+    /*Carousel Slider*/
+    .owl-carousel .owl-nav button.owl-next{position: absolute; top: calc(50% - 60px); right: -30px;opacity: 1; font-size: 35px !important; z-index: 1;width: 70px;height: 74px;}
+    .owl-carousel .owl-nav button.owl-prev{position: absolute; top: calc(50% - 60px); left: -30px;opacity: 1; font-size: 35px !important; z-index: 1;width: 70px;height: 74px;}
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+    
+    /*Carousel Slider*/
+    .owl-carousel .owl-nav button.owl-next{position: absolute; top: calc(50% - 60px); right: -30px;opacity: 1; font-size: 40px !important; z-index: 1;width: 70px;height: 74px;}
+    .owl-carousel .owl-nav button.owl-prev{position: absolute; top: calc(50% - 60px); left: -30px;opacity: 1; font-size: 40px !important; z-index: 1;width: 70px;height: 74px;}
 
+    [aria-label="Next"]{
+        position: absolute;
+        top: 1px;
+        right: 30px;
+    }
+
+    [aria-label="Previous"]{
+        position: absolute;
+        top: 1px;
+        right: 30px;
+    }
 }
