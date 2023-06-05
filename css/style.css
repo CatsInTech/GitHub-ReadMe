@@ -1391,6 +1391,7 @@ select.form-control.has-value {
   color: #305be4;
   font-size: 45px;
   margin-top: -30px;
+  text-align: center;
 }
 .bsh {
   display: block;
