@@ -3,6 +3,7 @@ name: Add Comment to Newly Open PRs
 on:
   pull_request_target:
     types: [opened]
+    branches: [main, website, gh-pages]
 
 jobs:
   add-comment:
