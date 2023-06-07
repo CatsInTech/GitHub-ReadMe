@@ -27,6 +27,27 @@
 - [Resources](#resources)
   - [YouTube Videos](#youtube-videos)
 
+<br />
+<div style="text-align: center;">
+  <img src="https://img.shields.io/badge/Built%20with-Love-red.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Uses-Brains-blue.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Powered%20by-Responsibility-orange.svg?style=for-the-badge" />
+  <br />
+  <img src="https://img.shields.io/github/repo-size/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" /></a>
+  <img src="https://img.shields.io/github/issues-closed-raw/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-closed/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/CatsInTech/GitHub-ReadMe.svg?style=social&label=Stars" />
+  <img src="https://img.shields.io/github/forks/CatsInTech/GitHub-ReadMe.svg?style=social" />
+  <img src="https://img.shields.io/github/issues-pr/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/contributors/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+</div>
+<br />
+  
+
 ## Introduction
 
 Introducing our latest product, the hassle-free and open-source GitHub Profile ReadMe customisation tool! With no login or registration required, you can quickly mix and match different components to create an impressive and informative GitHub Profile ReadMe page. Our drag and drop functionality makes the customisation a breeze, and with the tool being Open Source, you can expect new ideas and features to be added regularly. Try it out today and take your GitHub profile to the next level! 💪🏻
