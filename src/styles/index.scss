@@ -3,3 +3,21 @@ body {
   font-family: "Open Sans";
   @import "App";
 }
+
+*{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background: #343a40;
+}
+::-webkit-scrollbar-thumb {
+	background: #76828d;
+	border-radius: 12px 0 0 12px;
+	&:hover {
+		background: #919eaa;
+	}
+}
