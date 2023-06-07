@@ -119,7 +119,9 @@ If you’re facing any issues, feel free to message me on WhatsApp / LinkedIn / 
 
 ### ScreenCast
 
-(TODO: Video of a user doing the installation!)
+<video width="640" height="480" controls>
+  <source src="https://drive.google.com/uc?id=1Jz3uYkKJzTV7i8ZMh_9QrGXz9HkZct3_" type="video/mp4">
+</video>
 
 [⬆️ Back to Top](#table-of-contents)
 
