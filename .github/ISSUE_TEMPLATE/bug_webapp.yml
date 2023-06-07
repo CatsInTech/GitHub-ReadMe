@@ -61,10 +61,18 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: terms
+    id: no-duplicate-issues
     attributes:
-      label: Contributor terms
-      description: By submitting this issue, you agree to follow our Contributing Instructions. Please read our [Contributing Instructions](https://github.com/CatsInTech/GitHub-ReadMe/blob/main/Contributing.md).
+      label: "Checklist"
       options:
-        - label: I agree to follow the Contributing Instructions
+        - label: "I have checked the existing [issues](https://github.com/CatsInTech/GitHub-ReadMe/issues)"
           required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/CatsInTech/GitHub-ReadMe/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I am willing to work on this issue (optional)"
+          required: false
+
+        - label: "I am a GSSoC'23 contributor"
+          required: false
