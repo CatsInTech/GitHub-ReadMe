@@ -1,8 +1,10 @@
-import { Component } from "react";
+import { Component,lazy,Suspense } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Header from "./Bootstrap/Header";
-import Home from "./Home";
-import Docs from "./Docs";
+import Loading from "./Loading";
+
+const Home = lazy(() => import('./Home'))
+const Docs = lazy(() => import('./Docs'))
 
 class App extends Component {
   state = {};
@@ -16,6 +18,7 @@ class App extends Component {
       </Link>
     ];
     return (
+      <Suspense fallback={<Loading/>} className='loading'>
       <div className="App">
         <Header
           to="/"
@@ -31,6 +34,7 @@ class App extends Component {
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
+      </Suspense>
     );
   }
 }
