@@ -1,5 +1,52 @@
+:root {
+  --primary-color: #8034e4;
+  --secondary-color: #7202bb;
+}
+
 *,
 body {
   font-family: "Open Sans";
   @import "App";
+}
+
+/* --------------Custom Scrollbar---------------------- */
+
+/* Webkit-based browsers */
+::-webkit-scrollbar {
+  width: 0.8rem; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  // margin-block: 0.4em;
+}
+
+// Another secondary color: E638EAFF
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
+  background-clip: content-box;
+  border: 0.21em solid transparent;
+  border-radius: 100px;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) var(--secondary-color);
+}
+
+/* Internet Explorer and Microsoft Edge */
+*::-ms-scrollbar {
+  width: 0.8rem;
+}
+
+*::-ms-scrollbar-track {
+  background: transparent;
+}
+
+*::-ms-scrollbar-thumb {
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
+  background-clip: content-box;
+  border: 0.21em solid transparent;
+  border-radius: 100px;
 }
