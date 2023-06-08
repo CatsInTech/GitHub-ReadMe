@@ -27,6 +27,27 @@
 - [Resources](#resources)
   - [YouTube Videos](#youtube-videos)
 
+<br />
+<div style="text-align: center;">
+  <img src="https://img.shields.io/badge/Built%20with-Love-red.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Uses-Brains-blue.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Powered%20by-Responsibility-orange.svg?style=for-the-badge" />
+  <br />
+  <img src="https://img.shields.io/github/repo-size/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" /></a>
+  <img src="https://img.shields.io/github/issues-closed-raw/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-closed/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/CatsInTech/GitHub-ReadMe.svg?style=social&label=Stars" />
+  <img src="https://img.shields.io/github/forks/CatsInTech/GitHub-ReadMe.svg?style=social" />
+  <img src="https://img.shields.io/github/issues-pr/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/contributors/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/CatsInTech/GitHub-ReadMe.svg?style=for-the-badge" />
+</div>
+<br />
+  
+
 ## Introduction
 
 Introducing our latest product, the hassle-free and open-source GitHub Profile ReadMe customisation tool! With no login or registration required, you can quickly mix and match different components to create an impressive and informative GitHub Profile ReadMe page. Our drag and drop functionality makes the customisation a breeze, and with the tool being Open Source, you can expect new ideas and features to be added regularly. Try it out today and take your GitHub profile to the next level! 💪🏻
@@ -123,7 +144,7 @@ Here are some quick and simple instructions, which no one can mess up! 💪🏻
    1. If the issue is already assigned to someone else, please enter your comment but look through and try to see how you can fit.
    2. If it’s not already assigned, tell how you can solve this issue, explain your procedure in your mind and ask to assign.
 6. If you can’t find any issues, identify potential bugs or improvements for the project! 🔎
-7. Once you’ve been assigned the issue, kindly follow the [Contributing Guidelines](./Contributing.md) and make a Pull Request! 🤝🏻
+7. Once you’ve been assigned the issue, kindly follow the [Contributing Guidelines](./CONTRIBUTING.md) and make a Pull Request! 🤝🏻
 8. I’ll go through your PR and if it’s of good quality, congrats, thanks for your contribution. 😁
 9. Occasionally, if there are some issues, I’ll definitely point them out and I won’t close the PRs without a valid info! 🥹
 

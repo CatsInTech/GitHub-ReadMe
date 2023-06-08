@@ -13,7 +13,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Pull Requests
 
 1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-2. Update the ReadMe.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
+2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
 3. We strictly use GitFlow and try to have a linear merge. Please follow the guidelines below.
 4. Make sure your code has been prettified by Prettier & ES Lint before pushing. We use this [VS Code Config](https://gist.github.com/praveenscience/ebb5439f31774ad2fdc14cb9e7de1fc0).
 
