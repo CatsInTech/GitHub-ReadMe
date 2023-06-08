@@ -1,5 +1,5 @@
 const Header = ({ dark, children, className, items, to, Link }) => {
-  dark = !!dark ? "dark" : "light";
+  dark = dark ? "dark" : "light";
   return (
     <nav
       className={
@@ -8,13 +8,15 @@ const Header = ({ dark, children, className, items, to, Link }) => {
         (items && items.length ? " navbar-expand-lg" : "")
       }
     >
-      {to ? (
-        <Link to={to} className="navbar-brand">
-          {children}
-        </Link>
-      ) : (
-        <span className="navbar-brand">{children}</span>
-      )}
+      {to
+        ? (
+          <Link to={to} className="navbar-brand">
+            {children}
+          </Link>
+        )
+        : (
+          <span className="navbar-brand">{children}</span>
+        )}
       {items && items.length > 0 && (
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">

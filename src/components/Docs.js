@@ -10,12 +10,14 @@ class Docs extends Component {
     Name: "",
     Email: ""
   };
+
   handleFormElementChange = e => {
     this.setState({
       [e.target.name]: e.target.value
     });
   };
-  render() {
+
+  render () {
     return (
       <div className="Docs">
         <ContainerRow fluid={true}>

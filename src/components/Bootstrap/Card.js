@@ -19,11 +19,13 @@ const Card = ({
         />
       )}
       {Header &&
-        (TextHeader ? (
-          <div className="card-header">{Header}</div>
-        ) : (
-          <h5 className="card-header">{Header}</h5>
-        ))}
+        (TextHeader
+          ? (
+            <div className="card-header">{Header}</div>
+          )
+          : (
+            <h5 className="card-header">{Header}</h5>
+          ))}
       {(Title || Text || children) && (
         <div className="card-body">
           {Title && <h5 className="card-title">{Title}</h5>}

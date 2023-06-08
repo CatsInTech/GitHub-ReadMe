@@ -6,12 +6,12 @@ import Docs from "./Docs";
 
 class App extends Component {
   state = {};
-  render() {
+  render () {
     const NavItems = [
-      <Link className="nav-link" to="/">
+      <Link key={1} className="nav-link" to="/">
         Home
       </Link>,
-      <Link className="nav-link" to="/Docs">
+      <Link key={2} className="nav-link" to="/Docs">
         Docs
       </Link>
     ];
