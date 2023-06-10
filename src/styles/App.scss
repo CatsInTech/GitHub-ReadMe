@@ -1,0 +1,12 @@
+.App {
+  @import "Header";
+  .SmallDemo {
+    margin-bottom: 5px;
+    .card-body {
+      padding: 5px 10px;
+    }
+  }
+  .AppHeading {
+    font-size: 1.5em;
+  }
+}

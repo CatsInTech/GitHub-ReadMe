@@ -1,0 +1,70 @@
+name: "🐞 Bug - LandingPage"
+description: Report an issue for Landing Page to help improve the project.
+title: "🐞 [BUG_LP] - Title"
+labels: ["bug", "landingpage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🐞 **Bug Report**
+
+        Thanks for taking the time to fill out this Bug Report! :memo:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the bug. ✍🏻
+      description: Please provide a clear and concise description of what the bug is.
+      placeholder: Short and explicit description of the bug...
+    validations:
+      required: true
+  - type: textarea
+    id: currentBehavior
+    attributes:
+      label: Current Behaviour
+      description: What happens, e.g. "The button is not clickable"
+      placeholder: Short and explicit description of current senario...
+    validations:
+      required: true
+  - type: textarea
+    id: expectedBehaviour
+    attributes:
+      label: Expected Behaviour
+      description: What should happen, e.g. "The button should be clickable"
+      placeholder: Short and explicit description of expected senario...
+    validations:
+      required: true
+  - type: textarea
+    id: reproductionSteps
+    attributes:
+      label: Reproduction Steps
+      description: Please provide detailed steps for reproducing the issue.
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this bug?
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Contributor terms
+      description: By submitting this issue, you agree to follow our Contributing Instructions. Please read our [Contributing Instructions](https://github.com/CatsInTech/GitHub-ReadMe/blob/main/Contributing.md).
+      options:
+        - label: I agree to follow the Contributing Instructions
+          required: true
