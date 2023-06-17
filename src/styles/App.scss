@@ -1,12 +1,25 @@
+@import "Header";
+
 .App {
-  @import "Header";
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+
+  &.dark-mode {
+    background-color: #111;
+    color: #898686;
+  }
+
   .SmallDemo {
     margin-bottom: 5px;
+
     .card-body {
       padding: 5px 10px;
     }
   }
-  .AppHeading {
+
+  .AppHeader {
     font-size: 1.5em;
+    color: inherit; 
   }
 }
