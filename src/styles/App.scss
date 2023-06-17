@@ -1,12 +1,30 @@
+@import "Header";
+
+/* Styling for the App component */
 .App {
-  @import "Header";
+  background-color: #fff; /* Default background color */
+  color: #000; /* Default text color */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect for background color and text color */
+
+  &.dark-mode {
+    /* Styling when dark mode is active */
+    background-color: #111; /* Dark background color */
+    color: #898686; /* Light text color */
+  }
+
+  /* Styling for the SmallDemo class */
   .SmallDemo {
     margin-bottom: 5px;
+
+    /* Styling for the card-body element within SmallDemo */
     .card-body {
       padding: 5px 10px;
     }
   }
-  .AppHeading {
-    font-size: 1.5em;
+
+  /* Styling for the AppHeader class */
+  .AppHeader {
+    font-size: 1.5em; /* Font size for the header */
+    color: inherit; /* Inherit text color from parent */
   }
 }
