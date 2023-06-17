@@ -6,10 +6,11 @@ import Docs from "./Docs";
 
 class App extends Component {
   state = {
-    isDarkMode: false
+    isDarkMode: false // State to track dark mode
   };
 
   toggleDarkMode = () => {
+    // Function to toggle dark mode
     this.setState(prevState => ({
       isDarkMode: !prevState.isDarkMode
     }));
@@ -17,6 +18,7 @@ class App extends Component {
 
   render() {
     const NavItems = [
+       // Navigation items for the header
       <Link className="nav-link" to="/">
         Home
       </Link>,
